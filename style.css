@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.products {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products-li {
+  width: 300px;
+  height: 523px;
+  background-color: #F7F7FA;
+  padding: 25px;
+  margin: 15px;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 78px;
+  margin: 0;
+  text-align: center;
+  color: #515076;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.destiny {
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  color: #A5A3B9;
+  display: block;
+}
+
+.heading {
+  font-size: 20px;
+  line-height: 27px;
+  color: #515076;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.compound {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+ul.description {
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+.price {
+  font-size: 20px;
+  line-height: 24px;
+  color: #515076;
+  padding-bottom: 25px;
+}
+
+span.price {
+  padding-left: 175px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
