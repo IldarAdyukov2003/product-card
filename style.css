@@ -1,6 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
+  background-image: url('img/background_dandelions.jpg');
+  background-position: top left;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .products {
