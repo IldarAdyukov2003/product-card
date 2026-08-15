@@ -117,168 +117,26 @@ body {
 }
 
 
-
-
-
-/*
-  .clear-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.btn-color-1 {
+  background-color: #3498db;
 }
 
-.card {
-  background-color: #F7F7FA;
-  padding: 25px;
-  width: 100%;
+.btn-color-2 {
+  background-color: #e74c3c;
 }
 
-.card__image {
-  display: block;
-}
-
-.card__category {
-  display: block;
-  font-size: 12px;
-  line-height: 24px;
-  color: #A5A3B9;
-  text-transform: uppercase;
-}
-
-.products {
+.buttons-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 45px;
+  gap: 10px;
+  margin: 20px 0;
 }
 
-.products__item {
-  width: 340px;
+.buttons-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
-.title {
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 78px;
-  margin: 0;
-  text-align: center;
-  color: #515076;
-}
-
-.catalog__title {
-  margin-bottom: 110px;
-  margin-top: 220px;
-}
-
-.container {
-  width: 1110px;
-  margin: 0 auto;
-}
-
-.catalog__container {
-  background-image: url(img/background_dandelions.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  padding-top: 1px;
-}
-
-
-
-
-
-
-
-/*
-body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-  background-image: url('img/background_dandelions.jpg');
-  background-position: top left;
-  background-size: auto;
-  background-repeat: no-repeat;
-}
-
-.products {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.products-li {
-  display: flex;
-  width: 340px;
-  height: 533px;
-  background-color: #F7F7FA;
-  padding: 25px;
-  margin: 15px;
-  flex-direction: column;
-}
-
-.title {
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 78px;
-  margin: 0;
-  text-align: center;
-  color: #515076;
-}
-
-.description {
-  font-size: 13px;
-  line-height: 18px;
-  color: #515076;
-  margin-bottom: 15px;
-  margin-top: 5px;
-}
-
-.row {
-  margin-bottom: 33px;
-}
-
-.destiny {
-  font-size: 12px;
-  line-height: 24px;
-  margin-bottom: 5px;
-  color: #A5A3B9;
-  display: block;
-}
-
-.heading {
-  font-size: 20px;
-  line-height: 27px;
-  color: #515076;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.compound {
-  margin-top: 0px;
-  margin-bottom: 5px;
-}
-
-ul.description {
-  margin-bottom: 25px;
-  padding-left: 15px;
-}
-
-.price {
-  font-size: 20px;
-  line-height: 24px;
-  color: #515076;
-}
-
-.around-the-edges {
-  display: flex;
-  justify-content: space-between;
-}
-
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 25px;
-}
-/*
